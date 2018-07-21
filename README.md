@@ -1,6 +1,6 @@
 # DatePicker.js
 
-```
+```javascript
 new DatePicker(DomId, data, changeDateCallBack);
 ```
 
@@ -11,7 +11,7 @@ DOM的id，只支持id
 
 ### data
 一个月的数据，数据格式如下
-```
+```javascript
 var data = [
   {day: 2, data:''},
   {day: 6, data:''},
