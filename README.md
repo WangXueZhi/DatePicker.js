@@ -4,12 +4,12 @@
 new DatePicker(DomId, data, changeDateCallBack);
 ```
 
-##参数说明
+## 参数说明
 
-###DomId
+### DomId
 DOM的id，只支持id
 
-###data
+### data
 一个月的数据，数据格式如下
 ```
 var data = [
@@ -21,10 +21,10 @@ var data = [
 ]
 ```
 
-###changeDateCallBack
+### changeDateCallBack
 改变月份时触发，返回年，月，和渲染方法，使用方式如下
 
-```
+```javascript
 var datapicker = new DatePicker('datapicker', data, function(year, month, render) {
     //根据 年，月 发送请求获取数据，然后执行render，传入this,年月以及新数据mewData
     render.call(this, year, month, newData);
